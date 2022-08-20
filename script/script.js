@@ -23,9 +23,8 @@ function RandomPhoto(){
         img[5] = "download (6).jpeg";
         img[6] = "download (7).jpeg";
         img[7] = "download (8).jpeg";
-        img[8] = "images(1).jpeg";
-        img[10] = "images(2).jpeg";
+        img[7] = "download.jpeg";
         let mudar = Math.floor(Math.random()*img.length);
-        document.getElementById("img").innerHTML = "<img src='assets/"+img[mudar]+"'>";
+        document.getElementById("img").innerHTML = "<img src='../assets/"+img[mudar]+"'>";
    
 }
